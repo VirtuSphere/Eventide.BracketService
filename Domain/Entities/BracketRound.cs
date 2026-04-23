@@ -1,3 +1,5 @@
+using Eventide.BracketService.Domain.Enums;
+
 namespace Eventide.BracketService.Domain.Entities;
 
 public class BracketRound
