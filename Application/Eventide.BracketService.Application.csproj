@@ -3,10 +3,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\Eventide.BracketService.Domain.csproj" />
     <ProjectReference Include="..\Contracts\Eventide.BracketService.Contracts.csproj" />
+    <ProjectReference Include="..\..\Eventide.TournamentService\Contracts\Eventide.TournamentService.Contracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="MassTransit" Version="8.0.16" />
     <PackageReference Include="MediatR" Version="14.1.0" />
   </ItemGroup>
 
